@@ -4,27 +4,39 @@
 
 // create function 
 
-rev=(str)=>{
-console.log("total word : ",str.length)
-console.log(" your word :" , str)
+//rev=(str)=>{
+// console.log("total word : ",str.length)
+// console.log(" your word :" , str)
 
-let word = "";
-let i ;
+// let word = "";
+// let i ;
 // reverse count loop
-for(i=str.length-1;i>=0;i--){
+// for(i=str.length-1;i>=0;i--){
     
     
 
-    word += str[i];
+//     word += str[i];
 
+// }
+// return word;
+
+// }
+
+// const str = "hello world";
+// const pass = rev(str);
+// console.log("reverse word : ",pass);
+
+
+//reverse string method 2
+
+function reverseString(word){
+    return word.split('').reverse().join('');
 }
-return word;
+const value = "hello world";
 
-}
+const pass = reverseString(value);
 
-const str = "sagarijpoifjs";
-const pass = rev(str);
-console.log("reverse word : ",pass);
+console.log(pass);
 
 
 

@@ -2,9 +2,9 @@
   "name": "questions",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "reverse.string.js",
   "scripts": {
-    "start": "nodemon .",
+    "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
